@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kyoko/geometria comptacional/Tarea1/Point.h
+type_traits
+-
+iostream
+-
+
+/home/kyoko/geometria comptacional/Tarea1/Polygon.h
+Segment.h
+/home/kyoko/geometria comptacional/Tarea1/Segment.h
+iostream
+-
+vector
+-
+
+/home/kyoko/geometria comptacional/Tarea1/Segment.h
+Vector.h
+/home/kyoko/geometria comptacional/Tarea1/Vector.h
+iostream
+-
+
+/home/kyoko/geometria comptacional/Tarea1/Vector.h
+Point.h
+/home/kyoko/geometria comptacional/Tarea1/Point.h
+iostream
+-
+cmath
+-
+
+/home/kyoko/geometria comptacional/Tarea1/main.cpp
+iostream
+-
+cassert
+-
+Polygon.h
+/home/kyoko/geometria comptacional/Tarea1/Polygon.h
+
